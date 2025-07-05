@@ -86,7 +86,7 @@ const ContactSection = () => {
                 <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold">
                   Agendar Demo Gratuita
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary font-semibold">
+                <Button size="lg" className="bg-white/20 border-2 border-white text-white hover:bg-white hover:text-primary font-semibold">
                   Falar com Especialista
                 </Button>
               </div>
