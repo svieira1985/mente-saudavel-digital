@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,8 +44,8 @@ const Header = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" className="font-medium">
-              Entrar
+            <Button variant="ghost" className="font-medium" asChild>
+              <Link to="/login">Entrar</Link>
             </Button>
             <Button className="bg-primary hover:bg-primary-dark font-medium">
               Demo Gratuita
@@ -85,8 +86,8 @@ const Header = () => {
                 </nav>
 
                 <div className="flex flex-col space-y-4 mt-auto">
-                  <Button variant="ghost" className="w-full justify-start">
-                    Entrar
+                  <Button variant="ghost" className="w-full justify-start" asChild>
+                    <Link to="/login">Entrar</Link>
                   </Button>
                   <Button className="w-full bg-primary hover:bg-primary-dark">
                     Demo Gratuita
