@@ -5,14 +5,15 @@ import { Users, Brain, Building2, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const LoginType = () => {
-  const loginOptions = [
+const loginOptions = [
     {
       id: "colaborador",
       title: "Colaborador",
       description: "Acesse seus assessments, acompanhe seu desenvolvimento emocional e agende sessões com especialistas.",
       icon: Users,
       color: "bg-primary/10 hover:bg-primary/20",
-      iconColor: "text-primary"
+      iconColor: "text-primary",
+      url: "https://educardamente.com.br/collaborator/auth/sign-in"
     },
     {
       id: "psicologo",
@@ -20,7 +21,8 @@ const LoginType = () => {
       description: "Gerencie seus atendimentos, acesse perfis de clientes e ofereça suporte especializado.",
       icon: Brain,
       color: "bg-secondary/10 hover:bg-secondary/20",
-      iconColor: "text-secondary"
+      iconColor: "text-secondary",
+      url: "https://educardamente.com.br/psychologist/auth/sign-in"
     },
     {
       id: "empresa",
@@ -28,7 +30,8 @@ const LoginType = () => {
       description: "Dashboard executivo, relatórios de equipe e gestão completa da saúde emocional corporativa.",
       icon: Building2,
       color: "bg-accent/10 hover:bg-accent/20",
-      iconColor: "text-accent"
+      iconColor: "text-accent",
+      url: "https://educardamente.com.br/company/auth/sign-in"
     }
   ];
 
@@ -87,8 +90,11 @@ const LoginType = () => {
                 <Button 
                   className="w-full bg-primary hover:bg-primary-dark font-semibold"
                   size="lg"
+                  asChild
                 >
-                  Acessar como {option.title}
+                  <a href={option.url} target="_blank" rel="noopener noreferrer">
+                    Acessar como {option.title}
+                  </a>
                 </Button>
               </CardContent>
             </Card>
