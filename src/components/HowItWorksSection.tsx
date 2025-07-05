@@ -58,7 +58,7 @@ const HowItWorksSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section id="planos" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         {/* Como Funciona */}
         <div className="max-w-4xl mx-auto text-center mb-20">

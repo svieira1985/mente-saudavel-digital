@@ -34,7 +34,7 @@ const HeroSection = () => {
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold px-8 py-4 text-lg shadow-medium">
               Comece Agora - Gratuito
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 text-lg backdrop-blur-sm">
+            <Button size="lg" className="bg-white/20 border-2 border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 text-lg backdrop-blur-sm">
               Agendar Demo
             </Button>
           </div>
