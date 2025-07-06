@@ -45,15 +45,12 @@ const loginOptions = [
             Voltar ao início
           </Link>
           
-          <div className="flex items-center justify-center space-x-2 mb-6">
+          <div className="flex items-center justify-center mb-6">
             <img 
               src="/lovable-uploads/a8794a7e-d19e-42f8-a377-4d5a30761471.png" 
               alt="Educar da Mente" 
-              className="w-10 h-10 object-contain"
+              className="w-12 h-12 object-contain"
             />
-            <span className="text-2xl font-heading font-bold text-foreground">
-              Educar da Mente
-            </span>
           </div>
 
           <Badge className="mb-6 bg-primary/10 text-primary border-primary/20" variant="secondary">
