@@ -43,7 +43,7 @@ const Header = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" className="font-medium" asChild>
+            <Button variant="outline" className="font-medium" asChild>
               <Link to="/login">Entrar</Link>
             </Button>
             <Button className="bg-primary hover:bg-primary-dark font-medium">
@@ -84,7 +84,7 @@ const Header = () => {
                 </nav>
 
                 <div className="flex flex-col space-y-4 mt-auto">
-                  <Button variant="ghost" className="w-full justify-start" asChild>
+                  <Button variant="outline" className="w-full justify-start" asChild>
                     <Link to="/login">Entrar</Link>
                   </Button>
                   <Button className="w-full bg-primary hover:bg-primary-dark">
