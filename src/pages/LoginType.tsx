@@ -73,7 +73,7 @@ const loginOptions = [
               className={`group cursor-pointer transition-all duration-300 hover:shadow-medium animate-fade-in-up border-2 hover:border-primary/20 ${option.color}`}
               style={{animationDelay: `${index * 0.1}s`}}
             >
-              <CardContent className="p-8 text-center">
+              <CardContent className="p-8 text-center flex flex-col h-full">
                 <div className={`w-16 h-16 ${option.color} rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform`}>
                   <option.icon className={`w-8 h-8 ${option.iconColor}`} />
                 </div>
@@ -82,12 +82,12 @@ const loginOptions = [
                   {option.title}
                 </h3>
                 
-                <p className="text-muted-foreground mb-6 leading-relaxed">
+                <p className="text-muted-foreground mb-6 leading-relaxed flex-grow">
                   {option.description}
                 </p>
                 
                 <Button 
-                  className="w-full bg-primary hover:bg-primary-dark font-semibold"
+                  className="w-full bg-primary hover:bg-primary-dark font-semibold mt-auto"
                   size="lg"
                   asChild
                 >
