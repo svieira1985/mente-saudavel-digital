@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Shield, Users, Brain, TrendingUp, CheckCircle, Star } from "lucide-react";
+import Footer from "@/components/Footer";
 
 const V2 = () => {
   const features = [
@@ -196,13 +197,7 @@ const V2 = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-4 bg-muted/30">
-        <div className="container mx-auto text-center">
-          <p className="text-muted-foreground">
-            © 2025 Educar da Mente. Transformando vidas através da tecnologia.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
