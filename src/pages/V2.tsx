@@ -90,6 +90,9 @@ const V2 = () => {
             <Button variant="outline" size="lg" className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold px-8 py-4 text-lg">
               Ver Demo ao Vivo
             </Button>
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold px-8 py-4 text-lg" asChild>
+              <Link to="/login">Entrar</Link>
+            </Button>
           </div>
 
           <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
@@ -194,7 +197,7 @@ const V2 = () => {
       <footer className="py-8 px-4 bg-muted/30">
         <div className="container mx-auto text-center">
           <p className="text-muted-foreground">
-            © 2024 Educar da Mente. Transformando vidas através da tecnologia.
+            © 2025 Educar da Mente. Transformando vidas através da tecnologia.
           </p>
         </div>
       </footer>
