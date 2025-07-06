@@ -48,10 +48,15 @@ const V2 = () => {
       {/* Navigation */}
       <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link to="/" className="flex items-center text-muted-foreground hover:text-primary transition-colors">
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Voltar ao Demo
-          </Link>
+          <div className="flex items-center gap-4">
+            <Button size="sm" className="bg-primary hover:bg-primary/90 text-white font-bold" asChild>
+              <Link to="/login">Entrar</Link>
+            </Button>
+            <Link to="/" className="flex items-center text-muted-foreground hover:text-primary transition-colors">
+              <ArrowLeft className="w-4 h-4 mr-2" />
+              Voltar ao Demo
+            </Link>
+          </div>
           
           <Badge variant="secondary" className="bg-secondary/10 text-secondary">
             Versão 2.0
@@ -89,9 +94,6 @@ const V2 = () => {
             </Button>
             <Button variant="outline" size="lg" className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold px-8 py-4 text-lg">
               Ver Demo ao Vivo
-            </Button>
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold px-8 py-4 text-lg" asChild>
-              <Link to="/login">Entrar</Link>
             </Button>
           </div>
 
