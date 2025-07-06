@@ -21,9 +21,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">EM</span>
-            </div>
+            <img 
+              src="/lovable-uploads/a8794a7e-d19e-42f8-a377-4d5a30761471.png" 
+              alt="Educar da Mente" 
+              className="w-8 h-8 object-contain"
+            />
             <span className="text-xl font-heading font-bold text-foreground">
               Educar da Mente
             </span>
@@ -63,9 +65,11 @@ const Header = () => {
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between mb-8">
                   <div className="flex items-center space-x-2">
-                    <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold text-sm">EM</span>
-                    </div>
+                    <img 
+                      src="/lovable-uploads/a8794a7e-d19e-42f8-a377-4d5a30761471.png" 
+                      alt="Educar da Mente" 
+                      className="w-8 h-8 object-contain"
+                    />
                     <span className="text-xl font-heading font-bold">
                       Educar da Mente
                     </span>

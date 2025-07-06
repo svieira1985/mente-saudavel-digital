@@ -46,9 +46,11 @@ const loginOptions = [
           </Link>
           
           <div className="flex items-center justify-center space-x-2 mb-6">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold">EM</span>
-            </div>
+            <img 
+              src="/lovable-uploads/a8794a7e-d19e-42f8-a377-4d5a30761471.png" 
+              alt="Educar da Mente" 
+              className="w-10 h-10 object-contain"
+            />
             <span className="text-2xl font-heading font-bold text-foreground">
               Educar da Mente
             </span>
