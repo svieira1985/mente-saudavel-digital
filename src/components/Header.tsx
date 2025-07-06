@@ -44,7 +44,7 @@ const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <Button className="bg-primary hover:bg-primary-dark font-medium" asChild>
-              <Link to="/login">Entrar</Link>
+            <Link to="/login">Entrar</Link>
             </Button>
             <Button variant="outline" className="font-medium">
               Demo Gratuita

@@ -104,7 +104,7 @@ const loginOptions = [
         <div className="text-center">
           <p className="text-sm text-muted-foreground">
             Não tem acesso ainda? 
-            <Link to="/#contato" className="text-primary hover:underline ml-1">
+            <Link to="/v1#contato" className="text-primary hover:underline ml-1">
               Entre em contato conosco
             </Link>
           </p>
