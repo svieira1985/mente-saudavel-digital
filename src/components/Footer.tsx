@@ -115,7 +115,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center text-white/60">
           <p>
-            © 2024 Educar da Mente. Todos os direitos reservados. | 
+            © 2025 Educar da Mente. Todos os direitos reservados. | 
             CNPJ: 00.000.000/0001-00
           </p>
         </div>
