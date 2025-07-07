@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -19,8 +19,12 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-border/60 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <div className="flex items-center">
+          {/* Logo and Back Button */}
+          <div className="flex items-center gap-4">
+            <Link to="/" className="flex items-center text-muted-foreground hover:text-primary transition-colors text-sm">
+              <ArrowLeft className="w-4 h-4 mr-2" />
+              Voltar ao Demo
+            </Link>
             <img 
               src="/lovable-uploads/a8794a7e-d19e-42f8-a377-4d5a30761471.png" 
               alt="Educar da Mente" 
