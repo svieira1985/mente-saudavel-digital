@@ -55,12 +55,12 @@ const V2 = () => {
           </Link>
           
           <div className="flex items-center gap-3">
-            <Badge variant="secondary" className="bg-secondary/10 text-secondary">
-              Versão 2.0
-            </Badge>
             <Button size="sm" className="bg-primary hover:bg-primary/90 text-white font-bold" asChild>
               <Link to="/login">Entrar</Link>
             </Button>
+            <Badge variant="secondary" className="bg-secondary/10 text-secondary">
+              Versão 2.0
+            </Badge>
           </div>
         </div>
       </header>
