@@ -55,7 +55,7 @@ const V2 = () => {
       <HeroSection />
 
       {/* Features Grid */}
-      <section className="py-16 px-4 bg-gradient-to-r from-muted/30 to-background">
+      <section id="como-funciona" className="py-16 px-4 bg-gradient-to-r from-muted/30 to-background">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">
             Por que escolher a <span className="text-primary">Educar da Mente?</span>
