@@ -38,19 +38,6 @@ const ImpactSection = () => {
   return (
     <section id="impacto" className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        {/* Nosso Mercado e Estratégia */}
-        <div className="max-w-4xl mx-auto text-center mb-16">
-          <Badge className="mb-4 bg-secondary/10 text-secondary border-secondary/20" variant="secondary">
-            📈 Estratégia de Mercado
-          </Badge>
-          <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 text-foreground">
-            Nosso Mercado e Estratégia
-          </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            Focamos em pequenas empresas com RH menos desenvolvido, oferecendo uma solução 
-            eficaz e escalável para atender à saúde mental de seus funcionários.
-          </p>
-        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
           {marketStrategy.map((strategy, index) => (
