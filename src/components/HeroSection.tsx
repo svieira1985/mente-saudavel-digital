@@ -26,8 +26,8 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-white/95 animate-fade-in-up leading-relaxed" style={{animationDelay: '0.2s'}}>
-            Plataforma digital inovadora que resolve o crescente desafio da saúde emocional 
-            no ambiente de trabalho através de <span className="font-semibold text-white">avaliações científicas e inteligência artificial</span>
+            A revolução da saúde mental corporativa chegou. 
+            <span className="font-semibold text-white"> Transforme sua empresa hoje.</span>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
