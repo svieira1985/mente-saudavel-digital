@@ -18,7 +18,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo and Back Button */}
           <div className="flex items-center gap-4">
-            <Link to="/" className="flex items-center text-muted-foreground hover:text-primary transition-colors text-sm">
+            <Link to="/demo" className="flex items-center text-muted-foreground hover:text-primary transition-colors text-sm">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Voltar ao Demo
             </Link>

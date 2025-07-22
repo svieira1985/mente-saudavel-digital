@@ -54,7 +54,7 @@ const Demo = () => {
                 size="lg"
                 asChild
               >
-                <Link to="/v1">
+                <Link to="/">
                   Acessar Plataforma
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Link>
