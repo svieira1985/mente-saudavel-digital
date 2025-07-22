@@ -18,27 +18,27 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-border/60 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 gap-8">
-          {/* Logo and Back Button */}
-          <div className="flex items-center gap-4">
+          {/* Logo and Navigation */}
+          <div className="flex items-center gap-8">
             <img 
               src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png" 
               alt="Educar da Mente" 
               className="w-10 h-10 object-contain"
             />
+            
+            {/* Desktop Navigation */}
+            <nav className="hidden md:flex items-center space-x-6">
+              {navItems.map((item) => (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-muted-foreground hover:text-primary transition-colors duration-200 font-medium"
+                >
+                  {item.name}
+                </a>
+              ))}
+            </nav>
           </div>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
-            {navItems.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-muted-foreground hover:text-primary transition-colors duration-200 font-medium"
-              >
-                {item.name}
-              </a>
-            ))}
-          </nav>
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-3">
