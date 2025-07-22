@@ -12,7 +12,7 @@ const Demo = () => {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center mb-6">
             <img 
-              src="/lovable-uploads/b475f10b-8de5-4cdd-977b-6fa364f376f8.png" 
+              src="/lovable-uploads/a8794a7e-d19e-42f8-a377-4d5a30761471.png" 
               alt="Educar da Mente" 
               className="w-16 h-16 object-contain"
             />
@@ -54,7 +54,7 @@ const Demo = () => {
                 size="lg"
                 asChild
               >
-                <Link to="/">
+                <Link to="/v1">
                   Acessar Plataforma
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Link>
