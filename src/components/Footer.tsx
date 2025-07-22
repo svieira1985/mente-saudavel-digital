@@ -23,7 +23,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-foreground text-white">
+    <footer id="contato" className="bg-foreground text-white">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-6 gap-12">
           {/* Logo e Descrição */}
