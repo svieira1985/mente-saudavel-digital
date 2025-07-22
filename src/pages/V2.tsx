@@ -31,20 +31,6 @@ const V2 = () => {
     }
   ];
 
-  const testimonials = [
-    {
-      name: "Maria Silva",
-      role: "RH Manager",
-      company: "Tech Corp",
-      text: "Transformou completamente nossa abordagem de saúde mental corporativa."
-    },
-    {
-      name: "João Santos",
-      role: "CEO",
-      company: "Startup Inc",
-      text: "Nossos colaboradores nunca estiveram tão engajados e produtivos."
-    }
-  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
@@ -99,31 +85,6 @@ const V2 = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section id="depoimentos" className="py-16 px-4">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12">O que nossos clientes dizem</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="bg-gradient-to-br from-background to-muted/30 border-l-4 border-l-primary">
-                <CardContent className="p-8">
-                  <div className="flex items-center mb-4">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-                  <p className="text-lg mb-6 italic">"{testimonial.text}"</p>
-                  <div>
-                    <p className="font-semibold">{testimonial.name}</p>
-                    <p className="text-sm text-muted-foreground">{testimonial.role} • {testimonial.company}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-primary to-secondary text-white">
