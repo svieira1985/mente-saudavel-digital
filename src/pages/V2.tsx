@@ -67,7 +67,7 @@ const V2 = () => {
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center mb-8">
             <img 
-              src="/lovable-uploads/a8794a7e-d19e-42f8-a377-4d5a30761471.png" 
+              src="/lovable-uploads/aafee28d-30a6-4223-8fb4-2eac6f2eadc8.png" 
               alt="Educar da Mente" 
               className="w-20 h-20 object-contain"
             />
