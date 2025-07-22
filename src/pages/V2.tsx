@@ -63,10 +63,31 @@ const V2 = () => {
         </div>
       </section>
 
+      {/* Stats Section */}
+      <section id="impacto" className="py-16 px-4 bg-gradient-to-r from-primary/5 to-secondary/5">
+        <div className="container mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-12">Resultados que falam por si</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-5xl font-bold text-primary mb-2">92%</div>
+              <p className="text-lg text-muted-foreground">Melhoria no bem-estar</p>
+            </div>
+            <div className="text-center">
+              <div className="text-5xl font-bold text-secondary mb-2">40%</div>
+              <p className="text-lg text-muted-foreground">Aumento na produtividade</p>
+            </div>
+            <div className="text-center">
+              <div className="text-5xl font-bold text-accent mb-2">85%</div>
+              <p className="text-lg text-muted-foreground">Redução no turnover</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
       {/* CTA Section */}
-      <section id="impacto" className="py-20 px-4 bg-gradient-to-r from-primary to-secondary text-white">
+      <section className="py-20 px-4 bg-gradient-to-r from-primary to-secondary text-white">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Pronto para transformar sua empresa?
