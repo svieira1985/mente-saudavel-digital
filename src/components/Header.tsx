@@ -45,7 +45,7 @@ const Header = () => {
             <Button className="bg-primary hover:bg-primary-dark font-medium" asChild>
             <Link to="/login">Entrar</Link>
             </Button>
-            <Button variant="outline" className="font-medium hover:bg-primary hover:text-white hover:border-primary transition-colors">
+            <Button variant="outline" className="font-medium hover:bg-secondary hover:text-white hover:border-secondary transition-colors">
               Demo Gratuita
             </Button>
           </div>
@@ -90,7 +90,7 @@ const Header = () => {
                   <Button className="w-full bg-primary hover:bg-primary-dark" asChild>
                     <Link to="/login">Entrar</Link>
                   </Button>
-                  <Button variant="outline" className="w-full hover:bg-primary hover:text-white hover:border-primary transition-colors">
+                  <Button variant="outline" className="w-full hover:bg-secondary hover:text-white hover:border-secondary transition-colors">
                     Demo Gratuita
                   </Button>
                 </div>
