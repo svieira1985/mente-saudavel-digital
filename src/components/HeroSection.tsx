@@ -27,7 +27,7 @@ const HeroSection = () => {
             <span className="font-semibold text-white"> Transforme sua empresa hoje.</span>
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up" style={{
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 mt-8 animate-fade-in-up" style={{
           animationDelay: '0.4s'
         }}>
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold px-8 py-4 text-lg shadow-medium">
