@@ -22,7 +22,8 @@ const Header = () => {
             <img 
               src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png" 
               alt="Educar da Mente" 
-              className="w-10 h-10 object-contain"
+              className="w-10 h-10 object-contain cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             />
             
             {/* Desktop Navigation */}
@@ -63,7 +64,11 @@ const Header = () => {
                     <img 
                       src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png" 
                       alt="Educar da Mente" 
-                      className="w-10 h-10 object-contain"
+                      className="w-10 h-10 object-contain cursor-pointer hover:opacity-80 transition-opacity"
+                      onClick={() => {
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                        setIsOpen(false);
+                      }}
                     />
                   </div>
                 </div>
