@@ -25,7 +25,7 @@ const Header = () => {
               Voltar ao Demo
             </Link>
             <img 
-              src="/lovable-uploads/a8794a7e-d19e-42f8-a377-4d5a30761471.png" 
+              src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png"
               alt="Educar da Mente" 
               className="w-10 h-10 object-contain"
             />
@@ -66,7 +66,7 @@ const Header = () => {
                 <div className="flex items-center justify-between mb-8">
                   <div className="flex items-center">
                     <img 
-                      src="/lovable-uploads/a8794a7e-d19e-42f8-a377-4d5a30761471.png" 
+                      src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png" 
                       alt="Educar da Mente" 
                       className="w-10 h-10 object-contain"
                     />
