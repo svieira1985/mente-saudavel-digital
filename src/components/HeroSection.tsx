@@ -16,7 +16,7 @@ const HeroSection = () => {
             🚀 O Futuro da Saúde Mental Corporativa
           </Badge>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold mb-6 animate-fade-in-up">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold mb-6 mt-8 animate-fade-in-up">
             Educar da Mente
           </h1>
           
