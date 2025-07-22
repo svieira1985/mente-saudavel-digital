@@ -19,12 +19,13 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 gap-8">
           {/* Logo and Navigation */}
           <div className="flex items-center gap-8">
-            <img 
-              src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png" 
-              alt="Educar da Mente" 
-              className="w-10 h-10 object-contain cursor-pointer hover:opacity-80 transition-opacity"
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            />
+            <Link to="/">
+              <img 
+                src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png" 
+                alt="Educar da Mente" 
+                className="w-10 h-10 object-contain cursor-pointer hover:opacity-80 transition-opacity"
+              />
+            </Link>
             
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-6">
@@ -61,15 +62,14 @@ const Header = () => {
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between mb-8">
                   <div className="flex items-center">
-                    <img 
-                      src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png" 
-                      alt="Educar da Mente" 
-                      className="w-10 h-10 object-contain cursor-pointer hover:opacity-80 transition-opacity"
-                      onClick={() => {
-                        window.scrollTo({ top: 0, behavior: 'smooth' });
-                        setIsOpen(false);
-                      }}
-                    />
+                    <Link to="/">
+                      <img 
+                        src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png" 
+                        alt="Educar da Mente" 
+                        className="w-10 h-10 object-contain cursor-pointer hover:opacity-80 transition-opacity"
+                        onClick={() => setIsOpen(false)}
+                      />
+                    </Link>
                   </div>
                 </div>
 
