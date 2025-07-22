@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-border/60 z-50">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-16 gap-8">
           {/* Logo and Back Button */}
           <div className="flex items-center gap-4">
             <img 
@@ -28,7 +28,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6">
             {navItems.map((item) => (
               <a
                 key={item.name}
@@ -41,7 +41,7 @@ const Header = () => {
           </nav>
 
           {/* Desktop CTA */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-3">
             <Button className="bg-primary hover:bg-primary-dark font-medium" asChild>
             <Link to="/login">Entrar</Link>
             </Button>
