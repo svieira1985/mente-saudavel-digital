@@ -6,6 +6,7 @@ import { ArrowLeft, Shield, Users, Brain, TrendingUp, CheckCircle, Star } from "
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const V2 = () => {
   const features = [
@@ -109,7 +110,8 @@ const V2 = () => {
       {/* Footer */}
       <Footer />
 
-
+      {/* Scroll to Top Button */}
+      <ScrollToTopButton />
     </div>
   );
 };
