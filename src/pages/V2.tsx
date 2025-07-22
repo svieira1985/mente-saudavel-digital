@@ -78,7 +78,7 @@ const V2 = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-primary/5 to-secondary/5">
+      <section id="impacto" className="py-16 px-4 bg-gradient-to-r from-primary/5 to-secondary/5">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-12">Resultados que falam por si</h2>
           
