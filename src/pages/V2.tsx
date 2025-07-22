@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Shield, Users, Brain, TrendingUp, CheckCircle, Star } from "lucide-react";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const V2 = () => {
   const features = [
@@ -47,20 +48,7 @@ const V2 = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
       {/* Navigation */}
-      <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div></div>
-          
-          <div className="flex items-center gap-3">
-            <Button size="sm" className="bg-primary hover:bg-primary/90 text-white font-bold" asChild>
-              <Link to="/login">Entrar</Link>
-            </Button>
-            <Badge variant="secondary" className="bg-secondary/10 text-secondary">
-              Versão 2.0
-            </Badge>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
       <section className="pt-24 pb-16 px-4">
