@@ -20,12 +20,8 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo and Back Button */}
           <div className="flex items-center gap-4">
-            <Link to="/" className="flex items-center text-muted-foreground hover:text-primary transition-colors text-sm">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Voltar ao Demo
-            </Link>
             <img 
-              src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png"
+              src="/lovable-uploads/c207e55a-d11f-49dc-9ccd-a3ccc688e785.png" 
               alt="Educar da Mente" 
               className="w-10 h-10 object-contain"
             />
